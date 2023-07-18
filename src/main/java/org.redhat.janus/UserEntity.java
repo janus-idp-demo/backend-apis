@@ -10,6 +10,6 @@ public class UserEntity {
 
   public UserEntity(String name, String email) {
     this.name = name;
-    this.email = eamil;
+    this.email = email;
   }
 }
