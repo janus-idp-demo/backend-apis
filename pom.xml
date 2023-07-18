@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>quarkus-app</name>
-    <description></description>
+    <description>This is backend Quarkus Application that handles REST APIs for demo purposes</description>
 
     <properties>
         <compiler-plugin.version>3.8.1</compiler-plugin.version>
