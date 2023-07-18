@@ -1,5 +1,5 @@
 site_name: backend-apis
-site_description: 
+site_description: This is backend Quarkus Application that handles REST APIs for demo purposes.
 repo_url: https://github.com/janus-idp-demo/backend-apis
 edit_uri: edit/main/docs
 
