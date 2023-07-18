@@ -1,5 +1,6 @@
 # backend-apis
 
+Demo application to showcase backend apis with quarkus
 
 
 ## Running the application in dev mode
