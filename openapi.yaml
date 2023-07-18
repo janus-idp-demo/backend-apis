@@ -4,6 +4,8 @@ info:
   title: quarkus-app API
   version: 1.0-SNAPSHOT
 servers:
+- url: http://backend-apis-backend-apis-dev.apps.cluster-ckvl7.ckvl7.sandbox473.opentlc.com
+  description: Developer Instance
 - url: http://localhost:8080
   description: Auto generated value
 - url: http://0.0.0.0:8080
@@ -20,3 +22,31 @@ paths:
             text/plain:
               schema:
                 type: string
+  /userinfo:
+    get:
+      tags:
+      - user
+      responses:
+        "200":
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string       
+components:
+  schemas:
+    UserEntity:
+      type: object
+      properties:
+        id: 
+          type: string
+          description: Employee's identification number
+          example: '123456'
+        name:
+          type: string
+          description: Name of the employee
+          example: John Smith
+        email:
+          type: string
+          description: The email address of the Employee
+          example: jsmith@redhat.com
