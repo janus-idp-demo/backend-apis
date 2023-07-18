@@ -4,7 +4,7 @@ info:
   title: quarkus-app API
   version: 1.0-SNAPSHOT
 servers:
-- url: http://backend-apis-backend-apis-dev.apps.cluster-ckvl7.ckvl7.sandbox473.opentlc.com
+- url: https://janus-demo.apps.cluster-ckvl7.ckvl7.sandbox473.opentlc.com/backendapis
   description: Developer Instance
 - url: http://localhost:8080
   description: Auto generated value
